@@ -1,0 +1,29 @@
+
+.main{
+    
+    display:flex;
+    background-color:black;
+    height: 75px; ;
+    border-bottom: solid 2px rgba(238, 238, 243, 0.855); 
+}
+
+.main-left{
+    width: 50%;
+}
+
+.main-right{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 500;
+}
+.main-left>h1{
+    color: whitesmoke;
+    padding-left: 25px;
+}
+.main-right >a :hover{
+    color:blue
+}
